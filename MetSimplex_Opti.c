@@ -1,5 +1,5 @@
-/*Equipo 3:
-Gómez Vega Guadalupe
+/*
+GÃ³mez Vega Guadalupe
 Este programa aplica el metodo simplex y 
 el metodo simplex con una variable artificial*/
 /*Librerias a incluir*/
@@ -9,10 +9,6 @@ el metodo simplex con una variable artificial*/
 #include<stdbool.h>
 
 /*Funciones*/
-void datos()
-{
-	printf("Gomez Vega Guadalupe\n");
-}
 void datos(int *var, int *res)
 {
 	int r;
@@ -865,7 +861,6 @@ void minimizar(int res, int var, double matR[][res], double matS[res+1][res+var+
 }
 int main()
 {
-	datos();
 	system("pause");
 	system("cls");
 	int var, res; //var son las variables de decision y res son las restricciones
